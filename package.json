@@ -1,0 +1,17 @@
+{
+  "name": "GuessingGame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass src/sass/main.scss:dist/css/styles.css --style=compressed",
+    "terser": "terser src/js/script.js --compress --output dist/js/bigTings.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.32.5",
+    "terser": "^5.5.1"
+  }
+}
