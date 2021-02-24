@@ -1,4 +1,3 @@
 ## Notes
 
-* Setup variables and event listeners
-* There is very little logic in this branch (if any)
+* I haven't added any code here yet. this is untouched. I simply made the branch. 
