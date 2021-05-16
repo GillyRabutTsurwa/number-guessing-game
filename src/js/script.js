@@ -18,6 +18,7 @@ const DOM = (function () {
 
 // ==================================== FUNCTIONS ====================================
 const gameDone = (gameMsg, bgColour, lineAndFontColour) => {
+  gameOver = true;
   DOM.message.textContent = gameMsg;
   DOM.body.style.backgroundColor = bgColour;
   DOM.inputGuess.disabled = true;
@@ -29,9 +30,7 @@ const gameDone = (gameMsg, bgColour, lineAndFontColour) => {
   [DOM.title, DOM.inputGuess, ...DOM.allParagraphs].forEach((currentElement) => {
     currentElement.style.color = lineAndFontColour;
   });
-  gameOver = true;
 }
-
 
 
 let gameOver = false;
